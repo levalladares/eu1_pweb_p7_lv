@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c5bbf;
+    height: 400px;
+}
+
+p::before {
+    content: attr(type);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnJson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jsonS {
+    height: 100px;
+    width: 200px;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+}
+.formulario{
+    border: black 1px solid;
+    
+}

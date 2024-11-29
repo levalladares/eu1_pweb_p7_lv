@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/profesor.js" ></script>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <div class="container">
+            <div class="formulario">
+                <h1>Profesor</h1>
+                <p  type="Cedula: "><input id="cedulaP" type="text"></p>
+                <p type="Nombre: "><input id="nombreP" type="text"></p>
+                <p type="Apellido: "><input id="apellidoP" type="text"></p>
+                <nav class="btn" onclick="guardarProfesor()">
+                    <button>GUARDAR</button>
+                </nav>
+                <div class="json">
+                    <p type="json: "><input id="jsonID" class="jsonS" type="text"></p>
+                </div>
+                <nav class="btnJson">
+                    <button onclick="botonJSON()">JSON</button>
+                </nav>
+            </div>
+            
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
